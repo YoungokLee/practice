@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+void greet() {
+    printf("Let's start Embedded Programming!\n");
+}
+
 int main() {
-    printf("Hello, Embedded World!\n");
+    greet();
     return 0;
 }
